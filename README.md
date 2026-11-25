@@ -1,13 +1,12 @@
-# Snake AI (A* Pathfinding)
+# Snake AI with A* Pathfinding
 
-An AI-powered Snake game built with Python and Pygame that uses the **A* search algorithm** with Manhattan distance to navigate toward food dynamically.
+An implementation of the classic Snake game featuring an AI agent using the A* pathfinding algorithm and Pygame for visualization.
 
-## Features
-- **A* Pathfinding Algorithm:** Computes optimal paths on a grid using a custom priority queue (`g + h` cost).
-- **AI Path Visualization:** Highlights the calculated path on the grid in real time.
-- **Game Controls:** Pause/Resume (`Space`), Restart (`R`), and Quit (`Q`).
+## Project Type & Contribution
+- **Team Project:** Developed as part of a team, contributing to game logic, pathfinding/AI behavior, or visual/simulation components.
 
-## How to Run
-1. Install dependencies:
-   ```bash
-   pip install pygame
+## Tech Stack
+- Python, Pygame, A* Search Algorithm
+
+## Key Highlights
+- Grid-based pathfinding using heuristic search (A*) to navigate toward targets and avoid obstacles.
